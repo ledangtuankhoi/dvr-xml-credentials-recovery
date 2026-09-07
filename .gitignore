@@ -1,0 +1,4 @@
+Device.xml
+*.db
+*.log
+__pycache__/

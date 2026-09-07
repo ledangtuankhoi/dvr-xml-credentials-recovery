@@ -34,7 +34,8 @@ The device export XML configuration employs an **AES-128-ECB** encryption scheme
 ├── cctv_xml_decoder.ps1    # Core PowerShell parser & decryptor engine
 ├── cctv_xml_decoder.cmd    # Windows CMD wrapper for interactive file selection
 ├── cctv_db_tool.py         # Python SQLite database inspection & sync script
-└── README.md               # Project documentation
+├── LICENSE                 # MIT Open Source License & Liability Disclaimer
+└── README.md               # Project documentation & legal disclaimers
 ```
 
 ---
@@ -79,6 +80,21 @@ The XML configuration format utilizes the `<NO>` tag for each device record:
 
 ---
 
-## 📄 License & Terms
+## ⚖️ Legal, Security & Copyright Disclaimers
 
-Distributed for security auditing, backup, and device migration purposes. Free to modify and distribute under the MIT License.
+### 1. Authorized Administrative & Interoperability Use Only
+This software utility is developed and provided strictly for legitimate administrative password recovery, interoperability research, device migration, and security auditing of surveillance hardware owned by the user or operated under explicit authorization.
+
+### 2. Clean-Room Implementation & Public Cryptographic Standards
+- **Zero Proprietary Code**: This repository contains no proprietary vendor code, copyrighted binary DLLs, SDKs, or trade secrets.
+- **Public Standards**: All cryptographic functions rely exclusively on open, internationally recognized mathematical specifications (AES-128 FIPS-197, RFC 4648 Base64).
+- **Vendor-Agnostic Specification**: The tooling is maintained independently without reference to or endorsement by any commercial brand or software trademark.
+
+### 3. Disclaimer of Liability
+This software is provided "as is", without warranty of any kind, express or implied. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability arising from, out of, or in connection with the software or the use or other dealings in the software.
+
+---
+
+## 📄 License
+
+Distributed under the [MIT License](LICENSE).
